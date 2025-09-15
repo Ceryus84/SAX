@@ -1,5 +1,5 @@
 # Description
-constants.py holds all constants that are necessary for running the program. It is necessary to change the constant values for the program to correctly get the files and run as intended. To ensure that everything works properly, keep the python files in the same directory as the directory with your data. This project was a proof of concept in showing that Multilayer Perceptrons can be used to make predictions on Small Angle X-Ray Scattering data. It was thanks to the help of the NSF, NMHU and UCSB that I was able to work on this project. I am no longer maintaining this project, but will respond to any inquiries about the program. I always intended for this to be open-source and released to public, so here it is.
+constants.py holds all constants that are necessary for running the program. It is necessary to change the constant values for the program to correctly get the files and run as intended. To ensure that everything works properly, keep the python files in the same directory as the directory with your data. This project was a proof of concept in showing that Multilayer Perceptrons can be used to make predictions on Small Angle X-Ray Scattering data. It was thanks to the help of the NSF, NMHU and UCSB that I was able to work on this project. I am no longer maintaining this project, but will respond to any inquiries about the program. I will add an example csv file to demonstrate what the data we gave the model looked like as I cannot upload the data I used originally. I always intended for this to be open-source and released to public, so here it is.
 
 Here is a picture of what the model in First_Model_Attempt.py can currently do:
 ![alt text](Offset_Predicted.png)  
@@ -25,3 +25,4 @@ To adjust any of the preprocessing, interact with the constants at the top of Fi
 - Scipy-version: 1.14.0
 - Matplotlib-version: 3.9.0
 - Along with all the dependencies for the above packages.
+
