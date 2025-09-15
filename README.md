@@ -1,6 +1,9 @@
 # Description
-All of the data is stored in the Data folder, so when asked for a directory in any of the files, you should make sure it says Data.
-To ensure that everything works properly, keep the python files in the same directory as the Data directory.
+constants.py holds all constants that are necessary for running the program. It is necessary to change the constant values for the program to correctly get the files and run as intended. To ensure that everything works properly, keep the python files in the same directory as the directory with your data. This project was a proof of concept in showing that Multilayer Perceptrons can be used to make predictions on Small Angle X-Ray Scattering data. It was thanks to the help of the NSF, NMHU and UCSB that I was able to work on this project. I am no longer maintaining this project, but will respond to any inquiries about the program. I always intended for this to be open-source and released to public, so here it is.
+
+Here is a picture of what the model in First_Model_Attempt.py can currently do:
+![alt text](Offset_Predicted.png)  
+It is able to take a scattering profile at 5 (any) seconds and make a prediction of what it will be at 1200 (any) seconds compared to what the scattering profile actually is at 1200 seconds.
 
 # Workflow
 Before running First_Model_Attempt.py, make sure that you run Filename_Parsing.py at least once to generate the Training_Set.csv file.
